@@ -214,7 +214,7 @@ const BirthdaySurprise = () => {
                     <div className={`absolute inset-0 rounded-xl transform rotate-3 transition-transform duration-700 group-hover:rotate-0 
                       ${isNightMode ? 'bg-white/10' : 'bg-rose-900/10'}`}></div>
                     <img 
-                      src="/birthday-photo.jpg" 
+                      src={`${import.meta.env.BASE_URL}birthday-photo.jpg`}
                       alt="Birthday Girl" 
                       className={`relative w-full h-full object-cover rounded-xl shadow-2xl border-4 transform -rotate-3 transition-transform duration-700 group-hover:rotate-0
                         ${isNightMode ? 'border-amber-200/50' : 'border-white'}`}
